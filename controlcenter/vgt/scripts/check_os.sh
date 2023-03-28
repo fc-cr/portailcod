@@ -1,0 +1,1 @@
+echo $(nmap -p 3389 10.133.0.10 | grep "Host seems down" | wc -l)

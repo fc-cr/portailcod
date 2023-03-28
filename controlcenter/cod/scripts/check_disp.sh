@@ -1,0 +1,1 @@
+echo $(nmap -p 3300 10.130.0.20 | grep "3300/tcp" | grep "closed" | wc -l)
